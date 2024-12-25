@@ -34,7 +34,7 @@ int main() {
         A = A % 2;}
     else {C = 0;}
     if (A >= 1){
-        B = 1;}
+        B = A / 1;}
     else {B = 0;}
     cout << H << " nota(s) de R$ 100,00" << endl;
     cout << G << " nota(s) de R$ 50,00" << endl;
