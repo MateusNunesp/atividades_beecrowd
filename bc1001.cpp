@@ -20,4 +20,7 @@ int main() {
     // cin >> A >> B;
     // cout << "X = " << A + B << endl;
     
+    //  g++ -o hello .\Untitled-1.cpp
+    // .\hello.exe
+    
 }
