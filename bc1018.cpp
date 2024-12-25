@@ -12,25 +12,25 @@ int main() {
         }
     else {H = 0;}
     if(A >= 50){
-        G = 1;
+        G = A / 50;
         A = A % 50;
         }
     else {G = 0;}
     
     if(A >= 20){
-        F = 1;
+        F = A / 20;
         A = A % 20;}
     else {F = 0;}
     if (A >= 10){
-        E = 1;
+        E = A / 10;
         A = A % 10;}
     else {E = 0;}
     if (A >= 5){
-        D = 1;
+        D = A / 5;
         A = A % 5;}
     else {D = 0;}
     if (A >= 2){
-        C= 1;
+        C= A / 2;
         A = A % 2;}
     else {C = 0;}
     if (A >= 1){
