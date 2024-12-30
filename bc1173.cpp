@@ -6,7 +6,7 @@ int main() {
     int A;
     cin >> A;
     N[0] = A;
-    for (int C = 0; C <= 9; C++){
+    for (int C = 0; C < 10; C++){
         if(C == 0){
             N[C] = A;
         } else {N[C] = N[C-1] * 2;}
